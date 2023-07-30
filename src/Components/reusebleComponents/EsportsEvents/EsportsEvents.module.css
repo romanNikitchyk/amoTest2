@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 312px;
+    margin-bottom: 38px;
+}
+.container img {
+
+}
+.date {
+    color: #57B8FF;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 30px 0 20px 0 ;
+}
+
+.title {
+    width: 85%;
+    color: #FFF;
+    font-size: 23px;
+    line-height: 34px;
+    text-transform: capitalize;
+}

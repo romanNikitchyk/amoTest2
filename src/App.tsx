@@ -1,8 +1,16 @@
 import React from 'react';
-import './App.css';
 import {Landing} from "./Components/Landing/Landing";
-
+import {Header} from "./Components/Header/Header";
+import {OwnCharacter} from "./Components/OwnCharacter/OwnCharacter";
+import {LatestNews} from "./Components/LatestNews/LatestNews";
 function App() {
-  return (<Landing/>);
+  return (<div >
+      <Header/>
+      <Landing/>
+      <OwnCharacter/>
+      <LatestNews/>
+  </div>
+
+  );
 }
 export default App;

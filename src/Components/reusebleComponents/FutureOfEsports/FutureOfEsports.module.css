@@ -1,0 +1,12 @@
+.FireContainer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.FireContainer img {
+    margin-right: 8px;
+}
+
+.FireContainer p {
+    color: #57B8FF;
+}

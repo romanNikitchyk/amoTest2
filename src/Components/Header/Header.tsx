@@ -6,14 +6,18 @@ import cart from '../../assets/images/cart.svg'
 export const Header = () => {
   const buttons = ['Home', 'About', 'Team', 'Shop', 'Pages']
   return (
-    <header className={styles.header}>
+    <header>
+      <div className={styles.logoContainer}>
+        <img src={logo} alt="logo"/>
+      </div>
 
-      <img src={logo} alt="logo"/>
+
       <div className={styles.navigation}>
-        {buttons.map((b)=>{
-          return <p>{b}</p>
+        {buttons.map((b, index)=>{
+          return <p key={index}>{b}</p>
         })}
       </div>
+
       <div className={styles.contactUs}>
         <img className={styles.cart} src={cart} alt='cart'/>
         <p>Contact Us</p>
