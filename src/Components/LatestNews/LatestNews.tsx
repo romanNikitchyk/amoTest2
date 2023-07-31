@@ -28,14 +28,11 @@ export const LatestNews = () => {
           <p>Read More</p>
         </div>
       </div>
-
-
       <div className={styles.picsContainer}>
         <div className={styles.bigPic}>
           <img src={gamePad} alt="gamePad"/>
           <div className={styles.date}>April 2, 2021</div>
           <div className={styles.title}>Esports Group teams up with the Indianapolis Colts</div>
-
         </div>
 
         <div className={styles.smallPics}>
@@ -49,7 +46,6 @@ export const LatestNews = () => {
           })}
         </div>
       </div>
-
     </section>
   );
 };
