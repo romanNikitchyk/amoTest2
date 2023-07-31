@@ -23,14 +23,13 @@ export const OwnCharacter = () => {
           aperiam, eaque ipsa quae ab illo inventore veritatis et
           quasi architecto beatae.
         </div>
-        <div className={styles.picContainer}>
-          <div className={styles.pics}>
-            <img src={character1} alt="character1"/>
-            <img src={character2} alt="character2"/>
-            <img src={character3} alt="character3"/>
-          </div>
+        <div className={styles.pics}>
+          <img src={character1} alt="character1"/>
+          <img src={character2} alt="character2"/>
+          <img src={character3} alt="character3"/>
         </div>
-
+        <div className={styles.picContainer}>
+        </div>
       </div>
     </section>
   );

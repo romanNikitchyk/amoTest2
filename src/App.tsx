@@ -4,15 +4,17 @@ import {Header} from "./Components/Header/Header";
 import {OwnCharacter} from "./Components/OwnCharacter/OwnCharacter";
 import {LatestNews} from "./Components/LatestNews/LatestNews";
 import {Footer} from "./Components/Footer/Footer";
+
 function App() {
-  return (<div >
+  return (<div>
       <Header/>
       <Landing/>
       <OwnCharacter/>
       <LatestNews/>
       <Footer/>
-  </div>
+    </div>
 
   );
 }
+
 export default App;

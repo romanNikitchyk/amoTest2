@@ -10,7 +10,7 @@ export const Landing = () => {
         <div className={styles.socialLinks}>
           <p>TWITCH</p> <p>INSTAGRAM</p> <p>FACEBOOK</p>
         </div>
-        <div className={styles.rightContainer}>
+        <div className={styles.wrapper}>
           <div className={styles.left}>
             <FutureOfEsports/>
             <div className={styles.title}>
@@ -23,14 +23,13 @@ export const Landing = () => {
             </div>
             <div className={styles.buttons}>
               <p>Explore More</p>
-              <p>View our team</p>
+              <p className={styles.teamButton}>View our team</p>
             </div>
           </div>
           <div className={styles.right}>
             <img src={solder} alt="solder"/>
           </div>
         </div>
-
       </div>
     </section>
   );

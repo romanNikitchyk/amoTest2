@@ -10,9 +10,9 @@ import {EsportsEvents} from "../reusebleComponents/EsportsEvents/EsportsEvents";
 
 export const LatestNews = () => {
   const events = [
-    {pic:gamer,date: 'April 2, 2021', title: 'NAVI reveals s1mple fifth anniversary'},
+    {pic: gamer, date: 'April 2, 2021', title: 'NAVI reveals s1mple fifth anniversary'},
     {pic: motherBoard, date: 'April 2, 2021', title: 'A1esports Shares new picture'},
-    {pic:keyBoard, date: 'April 2, 2021', title: 'T1 unveil partnership with Razer'},
+    {pic: keyBoard, date: 'April 2, 2021', title: 'T1 unveil partnership with Razer'},
     {pic: headPhones, date: 'April 2, 2021', title: 'RX secures content partnership with'}
   ]
   return (
@@ -31,13 +31,17 @@ export const LatestNews = () => {
       <div className={styles.picsContainer}>
         <div className={styles.bigPic}>
           <img src={gamePad} alt="gamePad"/>
-          <div className={styles.date}>April 2, 2021</div>
-          <div className={styles.title}>Esports Group teams up with the Indianapolis Colts</div>
+          <div className={styles.date}>
+            April 2, 2021
+          </div>
+          <div className={styles.title}>
+            Esports Group teams up with
+            the Indianapolis Colts
+          </div>
         </div>
-
         <div className={styles.smallPics}>
-          {events.map((event, index)=>{
-            return(<EsportsEvents
+          {events.map((event, index) => {
+            return (<EsportsEvents
                 key={index}
                 img={event.pic}
                 date={event.date}

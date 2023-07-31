@@ -1,6 +1,5 @@
 .container {
     background-color: #000000;
-    height: 100%;
     padding: 130px 60px;
 }
 
@@ -74,13 +73,35 @@
     font-size: 36px;
     line-height: 46px;
     text-transform: capitalize;
+    word-break-wrap: 4;
+    word-wrap: break-word;
+    max-width: 100%;
 }
-
 
 .smallPics {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
+}
+
+@media (max-width: 720px) {
+    .picsContainer {
+        flex-direction: column;
+    }
+
+    .picsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bigPic {
+        width: 100%;
+    }
+
+    .smallPics {
+        width: 100%;
+    }
 }

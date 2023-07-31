@@ -1,7 +1,7 @@
 header {
     width: 100vw;
     min-height: 62px;
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,17 +27,16 @@ header {
     cursor: pointer;
 }
 
-
 .contactUs {
     display: inherit;
     justify-content: space-between;
     align-items: center;
     height: 62px;
 }
-.contactUs img {
-    margin-right: 40px;
-}
 
+.contactUs img {
+    margin-right: 8px;
+}
 
 .contactUs p {
     width: 178px;
@@ -49,10 +48,34 @@ header {
     display: inherit;
     justify-content: center;
     align-items: center;
-
 }
 
 .cart {
     height: 32px;
     width: 32px;
 }
+
+.burgerMenu {
+    height: 62px;
+    display: none;
+}
+
+.burgerMenu img {
+    height: 100%;
+}
+
+@media (max-width: 780px) {
+    .navigation {
+        display: none;
+    }
+
+    .contactUs {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: flex;
+    }
+}
+
+

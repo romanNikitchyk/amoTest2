@@ -1,17 +1,19 @@
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 312px;
     margin-bottom: 38px;
+    width: 50%;
 }
-.container img {
 
+.container img {
+    max-width: 320px;
 }
+
 .date {
     color: #57B8FF;
     font-size: 16px;
     line-height: 16px;
-    margin: 30px 0 20px 0 ;
+    margin: 30px 0 20px 0;
 }
 
 .title {
