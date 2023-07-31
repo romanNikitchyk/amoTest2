@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/amoTest2/static/css/main.167adfb6.css",
+    "main.js": "/amoTest2/static/js/main.412a7594.js",
+    "static/js/787.d107a2d4.chunk.js": "/amoTest2/static/js/787.d107a2d4.chunk.js",
+    "static/media/solder2.png": "/amoTest2/static/media/solder2.b42c6a92d18c5cebde23.png",
+    "static/media/solder.png": "/amoTest2/static/media/solder.b5f1d448ffd233d2a530.png",
+    "static/media/gamePad.png": "/amoTest2/static/media/gamePad.8d5ba6ebbb32667a282c.png",
+    "static/media/gamer.png": "/amoTest2/static/media/gamer.3dcf5eb3f2329c1198e7.png",
+    "static/media/headPhones.png": "/amoTest2/static/media/headPhones.8b4a5b047875c903e085.png",
+    "static/media/keyBoard.png": "/amoTest2/static/media/keyBoard.359d2ef7a975f96f513a.png",
+    "static/media/character1.png": "/amoTest2/static/media/character1.43b4fb7a9cc388a4f676.png",
+    "static/media/character2.png": "/amoTest2/static/media/character2.d4f1650de481f8227e0b.png",
+    "static/media/motherBoard.png": "/amoTest2/static/media/motherBoard.baeeb7c6a2a5ee51592b.png",
+    "static/media/character3.png": "/amoTest2/static/media/character3.44ad12894acda0afb321.png",
+    "static/media/logo.svg": "/amoTest2/static/media/logo.f375f8af0267dace1e65d597f0a098ce.svg",
+    "static/media/fireIcon.svg": "/amoTest2/static/media/fireIcon.d779a74390017da79a4f5f1edb0af503.svg",
+    "static/media/cart.svg": "/amoTest2/static/media/cart.3b63a370274a99785553487f35c6147d.svg",
+    "static/media/burger-menu.svg": "/amoTest2/static/media/burger-menu.bfa6bb8b6abee0cee7f8ef7b342b2290.svg",
+    "index.html": "/amoTest2/index.html",
+    "main.167adfb6.css.map": "/amoTest2/static/css/main.167adfb6.css.map",
+    "main.412a7594.js.map": "/amoTest2/static/js/main.412a7594.js.map",
+    "787.d107a2d4.chunk.js.map": "/amoTest2/static/js/787.d107a2d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.167adfb6.css",
+    "static/js/main.412a7594.js"
+  ]
+}
